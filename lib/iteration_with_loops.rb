@@ -6,16 +6,8 @@ min_values = []
 row_index = 0
 
   while row_index < src.length do
-    element_index = 0
-    
     min_values << src[row_index].min()
-    
-    
-      #while element_index < src[row_index].length do
-      #  element_index +=1
-      #end
-  
-  row_index += 1
+    row_index += 1
   end
   min_values
 end
